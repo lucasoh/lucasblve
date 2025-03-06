@@ -1,0 +1,216 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #77aaff;
+}
+
+/* Hero Section */
+#hero {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#hero .btn {
+    background: #fff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+#hero .btn:hover {
+    background: #77aaff;
+    color: #fff;
+}
+
+/* About Section */
+#about {
+    padding: 80px 0;
+    background: #fff;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Projects Section */
+#projects {
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.project .btn {
+    background: #77aaff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.project .btn:hover {
+    background: #333;
+}
+
+/* Contact Section */
+#contact {
+    padding: 80px 0;
+    background: #fff;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-links .btn {
+    background: #77aaff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.contact-links .btn:hover {
+    background: #333;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
