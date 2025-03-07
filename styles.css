@@ -214,3 +214,31 @@ footer p {
     margin: 0;
     font-size: 14px;
 }
+
+/* Custom styles for Project 1 */
+#project-details {
+    padding: 8px 0;
+    background: #fff;
+}
+
+#project-details h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#project-details h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#project-details ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#project-details ul li {
+    font-size: 16px;
+    line-height: 1.6;
+}
